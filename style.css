@@ -1,0 +1,26 @@
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 3fr 1fr ;
+
+}
+
+.wrapper > div {
+	background: #eee;
+	padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+	background: #ddd;
+}
+
+.main {
+	display: grid;
+	grid-gap: 1em;
+	justify-content: center;
+}
+
+.displayBox{
+	grid-column: 1/3;
+	justify-content:  center;
+}

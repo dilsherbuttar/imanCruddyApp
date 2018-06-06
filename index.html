@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First CRUD App</title>
+  	<link rel="stylesheet" href="style.css">
+    <script src="libs/jquery.js"></script>
+
+    <script src="app.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<div>
+				<label>Short Name</label>
+				 <input type="text"  class = "shortName" placeholder="Short Name">
+			</div>
+			<div>
+				<p>Enter your sippet here</p>
+				<textarea rows="30" cols="50" class ="snippet" placeholder="Type or paste your code in this area"></textarea>	
+			</div>
+			<div>
+				<input type="submit" name="submitCode" class="submitCode">
+			</div>
+			
+		</div>
+		<div>
+			<div>
+				<input type="text" class ="search" placeholder="Search Snippets">
+				<input type="submit" class="searchButton">
+				
+			</div>
+			<div class="searchResults">
+				
+			</div>
+		</div>
+		<div class = "displayBox">
+			<div>
+				<button class="display">Display Code</button>
+			</div>
+			<div class="codes">
+				
+			</div>
+			<div>
+				<button class="clear">Clear</button>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
